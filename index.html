@@ -11,7 +11,7 @@
 
 <body>
     <div class="container">
-        <h1>Student Registeration Form</h1>
+        <h1 class="h1">Student Registeration Form</h1>
         <form action="" class="form">
             <div class="firstName">
                 <label for="firstName">Firstname</label>
@@ -32,16 +32,28 @@
                 <span>course:</span>
                 <select name="" id="">
                     <option value="course">course</option>
-                    <option value="SignIn">SignIn</option>
+                    <option value="SignIn">Sign in</option>
                     <option value="Graduation">Graduation</option>
                 </select>
             </div>
 
             <div class="radioGender">
-                <p>Gender</p>
-                <input type="radio">Male
-                <input type="radio">Female
-                <input type="radio">Other
+                <p>Gender:</p>
+                <div class="divRadio">
+                    <div>
+                        <input type="radio">
+                        <label for="html">Male</label><br>
+                    </div>
+                    <div>
+                        <input type="radio">
+                        <label for="html">Female</label><br>
+                    </div>
+                    <div>
+                        <input type="radio">
+                        <label for="html">Other</label><br>
+                    </div>
+                </div>
+
             </div>
 
             <div class="phone">
@@ -49,27 +61,27 @@
                 <input type="text" value="+91" id="">
             </div>
 
-            <div class="">
+            <div class="PhoneNo">
                 <input type="text" placeholder="Phone no.">
             </div>
 
             <div class="Current-Adress">
-                <label for="">Current Adress</label>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Current Address"></textarea>
+                <p>Current Adress:</p>
+                <textarea name="" id="" cols="30" rows="5" placeholder="Current Address"></textarea>
             </div>
 
             <div class="email">
-                <label for="">Email</label>
+                <label class="email-label" for="">Email</label>
                 <input type="email" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="Enter Email">
             </div>
 
             <div class="Password">
-                <label for="Password">Password</label>
+                <label class="password-label" for="Password">Password</label>
                 <input type="text" id="" placeholder="Enter Password">
             </div>
 
             <div class="Re-Type-Password">
-                <label for="Password">Re-type Password</label>
+                <label class="Re-type-label for=" Password">Re-type Password</label>
                 <input type="text" id="" placeholder="Re-type Password">
             </div>
             <div class="button">
