@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,75 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="container">
+        <h1>Student Registeration Form</h1>
+        <form action="" class="form">
+            <div class="firstName">
+                <label for="firstName">Firstname</label>
+                <input type="text" name="" id="" placeholder="Firstname">
+            </div>
+
+            <div class="Middlename">
+                <label for="Middlename">Middlename</label>
+                <input type="text" name="" id="" placeholder="Middlename">
+            </div>
+
+            <div class="Lastname">
+                <label for="Lastname">Lastname</label>
+                <input type="text" name="" id="" placeholder="Lastname">
+            </div>
+
+            <div class="optionCourse">
+                <span>course:</span>
+                <select name="" id="">
+                    <option value="course">course</option>
+                    <option value="SignIn">SignIn</option>
+                    <option value="Graduation">Graduation</option>
+                </select>
+            </div>
+
+            <div class="radioGender">
+                <p>Gender</p>
+                <input type="radio">Male
+                <input type="radio">Female
+                <input type="radio">Other
+            </div>
+
+            <div class="phone">
+                <label for="phone">Phone:</label>
+                <input type="text" value="+91" id="">
+            </div>
+
+            <div class="">
+                <input type="text" placeholder="Phone no.">
+            </div>
+
+            <div class="Current-Adress">
+                <label for="">Current Adress</label>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Current Address"></textarea>
+            </div>
+
+            <div class="email">
+                <label for="">Email</label>
+                <input type="email" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="Enter Email">
+            </div>
+
+            <div class="Password">
+                <label for="Password">Password</label>
+                <input type="text" id="" placeholder="Enter Password">
+            </div>
+
+            <div class="Re-Type-Password">
+                <label for="Password">Re-type Password</label>
+                <input type="text" id="" placeholder="Re-type Password">
+            </div>
+            <div class="button">
+                <button>Register</button>
+            </div>
+        </form>
+    </div>
 </body>
+
 </html>
