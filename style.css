@@ -88,3 +88,7 @@ label {
     display: flex;
     gap: .4rem;
 }
+textarea{
+    max-width: 100%;
+    min-height:3rem ;
+}
