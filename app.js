@@ -26,8 +26,6 @@ function registerbtn(Event) {
       if (notice[index].classList.length === 1) {
         notice[index].classList.add("display-notice");
       }
-
-      console.log("a");
     } else {
       notice[index].classList.remove("display-notice");
     }
