@@ -44,12 +44,21 @@ align-self: center;
 }
 .filterSellected{
     display: flex;
-    width: 6rem;
+    width: 9rem;
 }
 .filterSellected button{
-    color: white;
-    background-color:#2E83C3 ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .1rem;
+    padding: .4rem;
+    margin-top: .2rem;
     border: none;
-    font-size: .5rem;
-    padding: .3rem;
+    font-size: .6rem;
+    background-color:#2E83C3 ;
+    color: #ffffff;
+}
+.filterSellected button img{
+    width: .6rem;
 }
