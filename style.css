@@ -1,30 +1,30 @@
 *,
 *::before,
 *::after {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    width: 100%;
-    height: 100%;
-    font-size: 62.5%;
-    font-family: sans-serif;
-    background-color: #ADD8E6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 100%;
+  font-size: 62.5%;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-    display: flex;
-    width: 50rem;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    font-size: 1rem;
+  display: flex;
+  width: 50rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  font-size: 1rem;
+  background-color: #add8e6;
 }
 
 .firstName,
@@ -37,65 +37,78 @@ body {
 .Password,
 .Re-Type-Password,
 .button {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .form {
-    border-top: 2px solid white;
-    width: 100%;
+  border-top: 2px solid white;
+  width: 100%;
 }
 
-.form div:not(.divRadio , .divRadio div) {
-    padding: 1rem 0;
+.form div:not(.divRadio, .divRadio div) {
+  padding: 1rem 0;
 }
 
 .h1 {
-    padding-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 
 .optionCourse select {
-    width: 15%;
+  width: 15%;
 }
 
 input,
 textarea {
-    border: none;
-    padding: .8rem;
-    outline: none;
+  border: none;
+  padding: 0.8rem;
+  outline: none;
 }
 
-label {
-    padding-bottom: .4rem;
+label,
+.current-address-label {
+  padding-bottom: 0.4rem;
 }
 
 .password-label,
-.Re-Type-Password,
+.Re-type-label,
 .email-label {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .button button {
-    border: none;
-    padding: 1rem;
-    font-family: sans-serif;
-    color: white;
-    background-color: #56B35F;
-    cursor: pointer;
+  border: none;
+  padding: 1rem;
+  font-family: sans-serif;
+  color: white;
+  background-color: #56b35f;
+  cursor: pointer;
 }
-.divRadio{
-    padding: .2rem;
-    display: flex;
-    gap: .4rem;
+.divRadio {
+  padding: 0.2rem;
+  display: flex;
+  gap: 0.4rem;
 }
-textarea{
-    max-width: 100%;
-    min-height:3rem ;
+textarea {
+  max-width: 100%;
+  min-height: 3rem;
 }
-.notice{
-    color: red;
-    padding-top: .5rem;
+.notice {
+  color: red;
+  padding-top: 0.5rem;
 }
-.display-notice{
-    display: none;
+.display-notice {
+  display: none;
+}
+
+/* responsive */
+@media screen and (max-width: 459px) {
+  .h1 {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 306px) {
+  .h1 {
+    font-size: 1rem;
+  }
 }
