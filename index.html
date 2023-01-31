@@ -15,19 +15,19 @@
         <form action="" class="form">
             <div class="firstName">
                 <label for="firstName">Firstname</label>
-                <input type="text" name="" id="FirstName" placeholder="Firstname" class="empty-value">
+                <input type="text" name="" id="FirstName" placeholder="Firstname" class="empty-value" maxlength="15">
                 <p class="notice display-notice">Notice: this field is necessary</p>
             </div>
 
             <div class="Middlename">
                 <label for="Middlename">Middlename</label>
-                <input type="text" name="" id="Middlename" placeholder="Middlename" class="empty-value">
+                <input type="text" name="" id="Middlename" placeholder="Middlename" maxlength="15" class="empty-value">
                 <p class="notice display-notice">Notice: this field is necessary</p>
             </div>
 
             <div class="Lastname">
                 <label for="Lastname">Lastname</label>
-                <input type="text" name="" id="Lastname" placeholder="Lastname" class="empty-value">
+                <input type="text" name="" id="Lastname" placeholder="Lastname" class="empty-value" maxlength="15" >
                 <p class="notice display-notice">Notice: this field is necessary</p>
             </div>
 
@@ -61,12 +61,12 @@
 
             <div class="phone">
                 <label for="phone">Phone:</label>
-                <input type="number" value="" id="" class="empty-value">
+                <input type="tel" value="" id="" class="empty-value phoneInput phoneAfter" maxlength="11" >
                 <p class="notice display-notice">Notice: this field is necessary</p>
             </div>
 
             <div class="PhoneNo">
-                <input type="number" placeholder="Phone no.">
+                <input type="tel" placeholder="Phone no." maxlength="11">
             </div>
 
             <div class="Current-Adress">
@@ -76,20 +76,21 @@
 
             <div class="email">
                 <label class="email-label" for="">Email</label>
-                <input type="email" placeholder="Enter Email" class="empty-value">
+                <input type="email" placeholder="Enter Email" class="empty-value" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
                 <p class="notice display-notice">Notice: this field is necessary</p>
             </div>
 
             <div class="Password">
                 <label class="password-label" for="Password">Password</label>
-                <input type="password" id="Password" placeholder="Enter Password" class="empty-value">
+                <input type="password" id="Password" placeholder="Enter Password"  class="empty-value password">
                 <p class="notice display-notice">Notice: this field is necessary</p>
             </div>
 
             <div class="Re-Type-Password">
                 <label class="Re-type-label for=" Password">Re-type Password</label>
-                <input type="password" id="Re-password" placeholder="Re-type Password" class="empty-value">
+                <input type="password" id="Re-password" placeholder="Re-type Password" class="empty-value RePassword">
                 <p class="notice display-notice">Notice: this field is necessary</p>
+                <p class="checkPass display-notice"> The Passwords are not the Same!!</p>
             </div>
             <div class="button">
                 <button class="button-register">Register</button>

@@ -97,6 +97,10 @@ textarea {
   color: red;
   padding-top: 0.5rem;
 }
+.checkPass{
+    padding-top: .5rem;
+    color: rgb(255, 0, 0);
+}
 .display-notice {
   display: none;
 }
