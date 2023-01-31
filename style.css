@@ -92,3 +92,10 @@ textarea{
     max-width: 100%;
     min-height:3rem ;
 }
+.notice{
+    color: red;
+    padding-top: .5rem;
+}
+.display-notice{
+    display: none;
+}

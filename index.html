@@ -15,22 +15,25 @@
         <form action="" class="form">
             <div class="firstName">
                 <label for="firstName">Firstname</label>
-                <input type="text" name="" id="" placeholder="Firstname">
+                <input type="text" name="" id="FirstName" placeholder="Firstname" class="empty-value">
+                <p class="notice display-notice">Notice: this field is necessary</p>
             </div>
 
             <div class="Middlename">
                 <label for="Middlename">Middlename</label>
-                <input type="text" name="" id="" placeholder="Middlename">
+                <input type="text" name="" id="Middlename" placeholder="Middlename" class="empty-value">
+                <p class="notice display-notice">Notice: this field is necessary</p>
             </div>
 
             <div class="Lastname">
                 <label for="Lastname">Lastname</label>
-                <input type="text" name="" id="" placeholder="Lastname">
+                <input type="text" name="" id="Lastname" placeholder="Lastname" class="empty-value">
+                <p class="notice display-notice">Notice: this field is necessary</p>
             </div>
 
             <div class="optionCourse">
                 <span>course:</span>
-                <select name="" id="">
+                <select name="" id="course">
                     <option value="course">course</option>
                     <option value="SignIn">Sign in</option>
                     <option value="Graduation">Graduation</option>
@@ -58,7 +61,8 @@
 
             <div class="phone">
                 <label for="phone">Phone:</label>
-                <input type="number" value="+91" id="">
+                <input type="number" value="" id="" class="empty-value">
+                <p class="notice display-notice">Notice: this field is necessary</p>
             </div>
 
             <div class="PhoneNo">
@@ -67,28 +71,32 @@
 
             <div class="Current-Adress">
                 <p>Current Adress:</p>
-                <textarea name="" id="" cols="30" rows="5" placeholder="Current Address"></textarea>
+                <textarea name="" id="Textarea" cols="30" rows="5" placeholder="Current Address"></textarea>
             </div>
 
             <div class="email">
                 <label class="email-label" for="">Email</label>
-                <input type="email" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="Enter Email">
+                <input type="email" placeholder="Enter Email" class="empty-value">
+                <p class="notice display-notice">Notice: this field is necessary</p>
             </div>
 
             <div class="Password">
                 <label class="password-label" for="Password">Password</label>
-                <input type="password" id="" placeholder="Enter Password">
+                <input type="password" id="Password" placeholder="Enter Password" class="empty-value">
+                <p class="notice display-notice">Notice: this field is necessary</p>
             </div>
 
             <div class="Re-Type-Password">
                 <label class="Re-type-label for=" Password">Re-type Password</label>
-                <input type="password" id="" placeholder="Re-type Password">
+                <input type="password" id="Re-password" placeholder="Re-type Password" class="empty-value">
+                <p class="notice display-notice">Notice: this field is necessary</p>
             </div>
             <div class="button">
-                <button>Register</button>
+                <button class="button-register">Register</button>
             </div>
         </form>
     </div>
+    <script src="app.js"></script>
 </body>
 
 </html>
