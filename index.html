@@ -11,7 +11,7 @@
     <div class="container">
         <header class="header">
             <div class="header-h1">
-                <h1>مشاهده ویدیو معرفی محصولات</h1>
+                <h1 class="header-h1">مشاهده ویدیو معرفی محصولات</h1>
             </div>
             <div class="header-video">
                 <video class="video" controls width="250">
@@ -19,22 +19,46 @@
             </div>
 
             <div class="header-filter">
-                <div class="ram filterSellected">
-                    <span>RAM:</span>
-                    <button> <img src="./icon/filter-svgrepo-com.svg" alt="">Ram</button>
-                </div>
-                <div class="ram filterSellected">
-                    <span>Hard disk:</span>
-                    <button> <img src="./icon/filter-svgrepo-com.svg" alt="">Hard disc</button>
-                </div>
-                <div class="processor">
-                    <span>Processor:</span>
-                    <select name="processor" id="">
-                        <option value="">nothing selected</option>
+                <div class="Laptop-model filter-option">
+                    <span>Laptop model::</span>
+                    <select name="processor" id="" required>
+                        <option  class="disable-option" value=""disabled selected hidden >nothing selected </option>
                         <option value="">4</option>
                         <option value="">6</option>
                         <option value="">8</option>
                     </select>
+                </div>
+                
+                <div class="processor filter-option">
+                    <span>Processor:</span>
+                    <select name="processor" id="" required>
+                        <option  class="disable-option" value=""disabled selected hidden >nothing selected </option>
+                        <option value="">4</option>
+                        <option value="">6</option>
+                        <option value="">8</option>
+                    </select>
+                </div>
+                <div class="ram filterSellected">
+                    <span>RAM:</span>
+                    <button> <img src="./icon/filter-svgrepo-com.svg" alt="">Ram</button>
+                </div>
+                <div class="Hard-disc filterSellected">
+                    <span>Hard disk:</span>
+                    <button> <img src="./icon/filter-svgrepo-com.svg" alt="">Hard disc</button>
+                </div>
+                
+                <div class="Display filter-option">
+                    <span>Display:</span>
+                    <select name="processor" id="" required>
+                        <option  class="disable-option" value=""disabled selected hidden >nothing selected </option>
+                        <option value="">4</option>
+                        <option value="">6</option>
+                        <option value="">8</option>
+                    </select>
+                </div>
+                <div class="Graphics filterSellected">
+                    <span>Graphics:</span>
+                    <button> <img src="./icon/filter-svgrepo-com.svg" alt="">Graphics</button>
                 </div>
             </div>
         </header>
