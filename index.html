@@ -82,13 +82,13 @@
 
             <div class="Password">
                 <label class="password-label" for="Password">Password</label>
-                <input type="password" id="Password" placeholder="Enter Password"  class="empty-value password">
+                <input type="password" id="Password" placeholder="Enter Password"  class="empty-value password"  pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$">
                 <p class="notice display-notice">Notice: this field is necessary</p>
             </div>
 
             <div class="Re-Type-Password">
                 <label class="Re-type-label for=" Password">Re-type Password</label>
-                <input type="password" id="Re-password" placeholder="Re-type Password" class="empty-value RePassword">
+                <input type="password" id="Re-password" placeholder="Re-type Password" class="empty-value RePassword" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$">
                 <p class="notice display-notice">Notice: this field is necessary</p>
                 <p class="checkPass display-notice"> The Passwords are not the Same!!</p>
             </div>
