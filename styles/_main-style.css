@@ -1,24 +1,38 @@
-
-.main {
-  background-color: aqua;
+.main-header{
+    padding: 2.5rem 0 1rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
 }
+.main-header div{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.main-header span{
+    font-weight: 700;
+}
+/* card */
 .main-card {
   width: 55rem;
   height: 50rem;
-  background-color: rgb(231, 22, 68);
+ 
 }
-.div-card {
+.div-card{
   width: 100%;
   height: 5rem;
   display: flex;
   flex-direction: row;
   justify-self: center;
   align-self: center;
-  background-color: rgb(213, 191, 45);
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.div-card:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 }
 .div-card div {
-  border: 1px solid;
-  /* width: 100%; */
   padding: .5rem;
   height: 100%;
   display: flex;
@@ -26,11 +40,14 @@
   align-self: center;
 }
 .div-card span , .div-card button{
+    color: #686767;
     width: 100%;
     display: flex;
     justify-content: center;
     align-self: center;
     text-align: center;
+    cursor: pointer;
+
 }
 .div-card button{
     font-size: .6rem;
@@ -39,22 +56,50 @@
     border: none;
     background-color: #0D1D65;
     color: #fff;
+    cursor: pointer;
 }
-.div-card-os{
+.div-card-os , .title-cards ,.title-os{
     width: 3.5rem;
 }
-.div-card-Harddisc , .div-card-ram{
+.div-card-Harddisc , .div-card-ram {
     width: 5rem ;
 }
-.div-card-display{
+.div-card-display {
 width: 5rem;
 }
-.div-card-processor{
+.div-card-processor , .title-processes{
     width: 5rem;
 }
-.div-card-btn{
+.div-card-btn , .title-purches{
     width: 5rem;
 }
 .div-card-picture img{
     width: 4rem;
+}
+.title-model{
+    width: 9.8rem;
+}
+.title-picture{
+    width: 5.2rem;
+}
+.title-processes{
+    width: 4.5rem;
+}
+.title-RAM{
+    width: 4.7rem;
+}
+.title-Hard-disc {
+    width: 4.5rem;
+}
+.title-display{
+    width: 4.7rem;
+}
+.title-graphics{
+    width: 5.6rem;
+}
+.title-Battry{
+    width: 2rem;
+}
+.title-price{
+    width: 2.3rem;
 }
