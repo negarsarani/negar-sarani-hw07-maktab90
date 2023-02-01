@@ -1,17 +1,21 @@
-"use strict"
+"use strict";
 let salaries = {
-    "John": 100,
-    "Pete": 300,
-    "Mary": 250
+  John: 100,
+  Pete: 300,
+  Mary: 250,
+  Negar: 300,
 };
 
 //the richest person
 
 function topslaray() {
-    const x = Object.entries(salaries);
-    const getData = x.sort(
-        (a, b) => a[1] - b[1]
-    )
-    console.log(`the richest person is : ${getData[0][0]} with ${getData[0][1]} salary`);
+  const x = Object.entries(salaries);
+  const getData = x.sort((a, b) => b[1] - a[1]);
+  const [name, salary] = getData[0];
+  const filterData = getData.filter((a) => {
+    return a[1] === salary;
+  });
+  console.log(filterData);
+  console.log(getData);
 }
-console.log(topslaray()); 
+topslaray()
