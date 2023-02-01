@@ -20,6 +20,10 @@ button {
   font-size: 62.5%;
 }
 .container {
-  /* padding: .5rem; */
-  background-color: beige;
+  width: 60rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(168, 64, 160);
 }

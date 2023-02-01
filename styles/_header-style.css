@@ -1,5 +1,6 @@
 
 .header {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,11 +11,11 @@
   padding: 0.5rem;
 }
 .video {
-  width: 45rem;
+  width: 55rem;
 }
 .header-filter {
   padding: 1rem;
-  width: 45rem;
+  width: 55rem;
   display: flex;
   gap: 0.6rem;
 }
