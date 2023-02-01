@@ -47,7 +47,9 @@ button {
 .header-filter {
   -ms-overflow-style: none;
   scrollbar-width: none;
-  overflow-x: scroll;
+  overflow-x: auto;
+  float:left;
+  cursor: grab;
   border-bottom: 0.1rem solid #c3c3c3;
 }
 .header-filter::-webkit-scrollbar {
